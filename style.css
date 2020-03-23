@@ -1,0 +1,36 @@
+body{
+    background-color: gray;
+    margin: 0;
+}
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    align-content: center;
+}
+.icon1{
+    flex-basis: 300px;
+}
+.find{
+    flex-basis: 400px;
+}
+.icon2{
+    flex-basis: 100px;
+}
+.number{
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+.icon3{
+    flex-basis: 100px;
+}
+.icon4{
+    flex-basis: 100px;
+}
+.button{
+    float: left;
+    background-color: red;
+    cursor: pointer;
+}
